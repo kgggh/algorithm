@@ -33,6 +33,5 @@ public class Q12934 {
 
     public static void main(String[] args) {
         long result = solution(121);
-        System.out.println(result);
     }
 }
