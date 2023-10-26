@@ -42,11 +42,10 @@ public class Q12906 {
         for (int i = 0; i < arr.length; i++) {
             Integer currentNum = queue.poll();
 
-            if(currentNum.equals(prevNum)) {
-                continue;
+            if(!currentNum.equals(prevNum)) {
+                answerList.add(currentNum);
+                prevNum = currentNum;
             }
-            answerList.add(currentNum);
-            prevNum = currentNum;
         }
 
         int[] answer = new int[answerList.size()];
