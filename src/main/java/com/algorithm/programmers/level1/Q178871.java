@@ -1,6 +1,5 @@
 package com.algorithm.programmers.level1;
 
-import java.io.FilterOutputStream;
 import java.util.HashMap;
 import java.util.Map;
 

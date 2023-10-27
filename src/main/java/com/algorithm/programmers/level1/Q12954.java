@@ -1,8 +1,5 @@
 package com.algorithm.programmers.level1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * x만큼 간격이 있는 n개의 숫자
  * 문제 설명

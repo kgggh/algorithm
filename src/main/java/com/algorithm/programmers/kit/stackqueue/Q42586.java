@@ -40,7 +40,6 @@ import java.util.Queue;
  */
 public class Q42586 {
     public static int[] solution(int[] progresses, int[] speeds) {
-        int[] answer;
         int[] workDays = new int[progresses.length];
 
         Queue<Integer> workDaysQueue = new LinkedList<>();
@@ -62,7 +61,7 @@ public class Q42586 {
             counts.add(count);
         }
 
-        answer = new int[counts.size()];
+        int[] answer = new int[counts.size()];
 
         for (int i = 0; i < answer.length; i++) {
             answer[i] = counts.get(i);
