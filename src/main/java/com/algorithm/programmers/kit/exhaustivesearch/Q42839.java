@@ -1,4 +1,4 @@
-package com.algorithm.programmers.level2;
+package com.algorithm.programmers.kit.exhaustivesearch;
 
 import java.util.HashSet;
 import java.util.Iterator;

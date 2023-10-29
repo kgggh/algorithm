@@ -1,4 +1,4 @@
-package com.algorithm.programmers.level2;
+package com.algorithm.programmers.kit.exhaustivesearch;
 
 /**
  * 카펫
